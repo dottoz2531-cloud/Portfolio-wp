@@ -16,16 +16,16 @@
         rel="stylesheet"
       />
 
-      <link rel="stylesheet" href="./css/reset.css" />
-      <link rel="stylesheet" href="./css/style.css" />
-      <link rel="stylesheet" href="./css/lib/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/reset.css" />
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/style.css" />
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/lib/swiper-bundle.min.css" />
     </head>
 
     <body>
       <header class="header">
         <div class="header__inner inner">
           <h1 class="header__logo">
-            <a href="/"><img src="./img/header-icon.png" alt="" /></a>
+            <a href="/"><img src="<?php echo get_template_directory_uri() ?>/img/header-icon.png" alt="" /></a>
           </h1>
           <button
             id="js-drawer-button"
@@ -107,10 +107,9 @@
                 <div class="profile__img">
                   <img
                     class="profile__img-main rotation rotation-y"
-                    src="./img/plofile-1.png"
+                    src="./img/profile/profile-1.png"
                     alt=""
                   />
-                  <img class="profile__img-sub" src="" alt="" />
                 </div>
                 <div class="profile__detail">
                   <div class="profile__name">
@@ -123,12 +122,9 @@
                   </div>
                   <p class="profile__text">
                     1996年東京生まれ<br />
-                    文化服装学園を卒業後、アパレル企業で<br
-                      class="hidden-md"
-                    />パタンナー、生産管理を経験 <br />IT業界に転職し、
-                    Web制作に興味を持ち、<br
-                      class="hidden-md"
-                    />デイトラにてWeb制作を学ぶ
+                    文化服装学園を卒業後、<br class="hidden-lg"/>アパレル企業で
+                    パタンナー、生産管理を経験。 <br />IT業界に転職し、
+                    手に職を付けたいと思い、<br class="hidden-lg"/>デイトラにてWeb制作を学ぶ。
                   </p>
                   <div class="profile__button">
                     <a href="" class="button">
@@ -325,9 +321,9 @@
         </div>
       </footer>
 
-      <script src="./js/lib/swiper-bundle.min.js"></script>
+      <script src="<?php echo get_template_directory_uri() ?>/js/lib/swiper-bundle.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-      <script src="./js/script.js"></script>
+      <script src="<?php echo get_template_directory_uri() ?>/js/script.js"></script>
     </body>
   </html>
 </html>
