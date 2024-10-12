@@ -17,21 +17,6 @@ function my_script_init() {
 }
   add_action("wp_enqueue_scripts", "my_script_init");
 
-function my_enqueue_scripts() {
-  wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js', array(), null, true);
-}
-add_action('wp_enqueue_scripts', 'my_enqueue_scripts');
-
-  function my_menu_init() {
-    register_nav_menus(
-      array(
-        'global' => 'ヘッダーメニュー',
-        'drawer' => 'ドロワーメニュー',
-      )
-    );
-  }
-  add_action('init', 'my_menu_init');
-
-add_filter('get_the_archive_title', 'my_archive_title');
+  
 
 ?>

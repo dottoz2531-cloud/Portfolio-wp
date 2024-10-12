@@ -267,7 +267,7 @@ $(function () {
   $(window).scroll(function () {
     const wHeight = $(window).height();
     const wScroll = $(window).scrollTop();
-    $(".work-card").each(function () {
+    $(".works-card").each(function () {
       const bPosition = $(this).offset().top;
       if (wScroll > bPosition - wHeight + 200) {
         $(".fadeIn500ms").addClass("fadeInAnime500ms");

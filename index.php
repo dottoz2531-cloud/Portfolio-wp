@@ -1,71 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <html lang="ja">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="robots" content="noindex" />
-      <title>profile</title>
-      <meta name="description" content="岡村歩実のポートフォリオです。" />
-      <link rel="icon" href="" />
-
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900;1000&display=swap"
-        rel="stylesheet"
-      />
-
-      <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/reset.css" />
-      <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/style.css" />
-      <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/lib/swiper-bundle.min.css" />
-    </head>
-
-    <body>
-      <header class="header">
-        <div class="header__inner inner">
-          <h1 class="header__logo">
-            <a href="/"><img src="<?php echo get_template_directory_uri() ?>/img/header-icon.png" alt="" /></a>
-          </h1>
-          <button
-            id="js-drawer-button"
-            type="button"
-            class="header__icon drawer-icon"
-          >
-            <span class="drawer-icon__bar"></span>
-            <span class="drawer-icon__bar"></span>
-            <span class="drawer-icon__bar"></span>
-          </button>
-
-          <nav id="js-drawer-content" class="header__nav">
-            <ul class="header__lists">
-              <li class="header__list">
-                <a href="#about" class="header__link">
-                  <span class="link__text">ABOUT</span>
-                  <span class="link__text">詳しく</span>
-                </a>
-              </li>
-              <li class="header__list">
-                <a href="#skill" class="header__link">
-                  <span class="link__text">SKILL</span>
-                  <span class="link__text">スキル</span>
-                </a>
-              </li>
-              <li class="header__list">
-                <a href="#work" class="header__link">
-                  <span class="link__text">WORK</span>
-                  <span class="link__text">作品一覧</span>
-                </a>
-              </li>
-              <li class="header__list">
-                <a href="#contact" class="header__link">
-                  <span class="link__text">CONTACT</span>
-                  <span class="link__text">お問い合わせ</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+<?php get_header();?>
 
         <div class="c-text no-tick js-tick">
           <div class="c-text__item js-tick-item">
@@ -107,7 +40,7 @@
                 <div class="profile__img">
                   <img
                     class="profile__img-main rotation rotation-y"
-                    src="./img/profile/profile-1.png"
+                    src="<?php echo get_template_directory_uri() ?>/img/profile/profile-1.png"
                     alt=""
                   />
                 </div>
@@ -127,7 +60,12 @@
                     手に職を付けたいと思い、<br class="hidden-lg"/>デイトラにてWeb制作を学ぶ。
                   </p>
                   <div class="profile__button">
-                    <a href="" class="button">
+                  <?php if(have_posts()): ?>
+                      <?php while(have_posts()) :?>
+                        <?php the_post(); ?>
+                    <a href="<?php the_permalink(); ?>#about" class="button">
+                    <?php endwhile;?>
+                    <?php endif;?>
                       <span class="btn__text">View More...</span>
                       <span class="btn__text">Let's View!</span>
                     </a>
@@ -148,7 +86,7 @@
                     <div class="skill__img">
                       <img
                         class="rotation rotation-y"
-                        src="./img/skill/skill-img-cd.png"
+                        src="<?php echo get_template_directory_uri() ?>/img/skill/skill-img-cd.png"
                         alt=""
                       />
                     </div>
@@ -166,7 +104,7 @@
                   </div>
                   <div class="skill__tool skill-tool">
                     <div class="skill-tool__title js-in-view fade-in-up">
-                      <img src="./img/skill/tool-title.png" alt="" />
+                      <img src="<?php echo get_template_directory_uri() ?>/img/skill/tool-title.png" alt="" />
                     </div>
                     <div class="tools">
                       <p class="tool">HTML</p>
@@ -185,13 +123,13 @@
                     <div class="skill__img">
                       <img
                         class="rotation rotation-y"
-                        src="./img/skill/skill-img-wp.png"
+                        src="<?php echo get_template_directory_uri() ?>/img/skill/skill-img-wp.png"
                         alt=""
                       />
                     </div>
                     <div class="skill__detail">
                       <h3 class="skill__title-wp js-in-view fade-in-up">
-                        <img src="./img/skill/wp-title.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri() ?>/img/skill/wp-title.png" alt="" />
                       </h3>
                       <p class="skill__text">
                         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -205,16 +143,16 @@
           </div>
         </section>
 
-        <section id="work" class="work">
-          <div class="work__inner inner">
-            <h2 class="heading work__head">WORK</h2>
-            <div class="work__cards">
-              <div class="work__card work-card fadeIn500ms">
-                <a href="" class="work-card__img">
-                  <img src="./img/work/work-img1.png" class="card-img" alt="" />
+        <section id="works" class="works">
+          <div class="works__inner inner">
+            <h2 class="heading works__head">WORKS</h2>
+            <div class="works__cards">
+              <div class="works__card works-card fadeIn500ms">
+                <a href="" class="works-card__img">
+                  <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img1.png" class="card-img" alt="" />
                 </a>
-                <div class="work__texts">
-                  <h3 class="work-card__title">Portfolio site</h3>
+                <div class="works__texts">
+                  <h3 class="works-card__title">Portfolio site</h3>
                   <div class="tools">
                     <p class="tool">HTML</p>
                     <p class="tool">CSS</p>
@@ -227,12 +165,12 @@
                   </div>
                 </div>
               </div>
-              <div class="work__card work-card fadeIn1s">
-                <div class="work-card__img">
-                  <img src="./img/work/work-img2.png" class="card-img" alt="" />
+              <div class="works__card works-card fadeIn1s">
+                <div class="works-card__img">
+                  <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img2.png" class="card-img" alt="" />
                 </div>
-                <div class="work__texts">
-                  <h3 class="work-card__title">Shop site</h3>
+                <div class="works__texts">
+                  <h3 class="works-card__title">Shop site</h3>
                   <div class="tools">
                     <p class="tool">HTML</p>
                     <p class="tool">CSS</p>
@@ -245,12 +183,12 @@
                   </div>
                 </div>
               </div>
-              <div class="work__card work-card fadeIn1500ms">
-                <div class="work-card__img">
-                  <img src="./img/work/work-img3.png" class="card-img" alt="" />
+              <div class="works__card works-card fadeIn1500ms">
+                <div class="works-card__img">
+                  <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img3.png" class="card-img" alt="" />
                 </div>
-                <div class="work__texts">
-                  <h3 class="work-card__title">Corporate site</h3>
+                <div class="works__texts">
+                  <h3 class="works-card__title">Corporate site</h3>
                   <div class="tools">
                     <p class="tool">HTML</p>
                     <p class="tool">CSS</p>
@@ -263,7 +201,7 @@
                 </div>
               </div>
             </div>
-            <div class="work__button">
+            <div class="works__button">
               <a href="" class="button">
                 <span class="btn__text">View More...</span>
                 <span class="btn__text">Let's View!</span>
@@ -292,7 +230,7 @@
             <ul class="contact__link-items">
               <li class="contact__link-item">
                 <a href="" class="site__link">
-                  <img class="is-github" src="./img/github.png" alt="" />
+                  <img class="is-github" src="<?php echo get_template_directory_uri() ?>/img/github.png" alt="" />
                 </a>
               </li>
               <li class="contact__link-item">
@@ -300,7 +238,7 @@
                   href="https://github.com/dottoz2531-cloud?tab=repositories"
                   class="site__link"
                 >
-                  <img class="is-wantedly" src="./img/wantedly.png" alt="" />
+                  <img class="is-wantedly" src="<?php echo get_template_directory_uri() ?>/img/wantedly.png" alt="" />
                 </a>
               </li>
             </ul>
@@ -308,22 +246,4 @@
         </div>
       </section>
 
-      <footer class="footer">
-        <div class="footer__inner inner">
-          <div class="footer__items">
-            <p class="footer__copyright">
-              <small>© ty coming ayumi okamura</small>
-            </p>
-            <a href="#" class="pagetop" id="js-pagetop"
-              ><img src="./img/page-top.png" alt=""
-            /></a>
-          </div>
-        </div>
-      </footer>
-
-      <script src="<?php echo get_template_directory_uri() ?>/js/lib/swiper-bundle.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-      <script src="<?php echo get_template_directory_uri() ?>/js/script.js"></script>
-    </body>
-  </html>
-</html>
+      <?php get_footer(); ?>
