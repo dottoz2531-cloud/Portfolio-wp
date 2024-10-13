@@ -37,12 +37,12 @@
                     </div>
                     <p class="about__text">
                       現在、SESで開発保守として働きながら、<br />
-                      2024年5月よりデイトラのWEB制作コースで、<br class="hidden-md"/>
+                      2024年5月〜デイトラWEB制作コースで、<br />
                       プログラミングの勉強を始めました。<br />
-                      アパレル企業に勤めていた時からある、<br class="hidden-md"/>
+                      アパレル企業に勤めていた時からある、<br />
                       専門性のあるものへの好奇心、追求心、<br />
-                      また、納期や小さなミスが大きく影響する<br class="hidden-md hidden-lg"/>仕事内容が多かった為、<br />
-                      そこで培われた計画性、<br class="hidden-md"/>注意力を生かしていきたいです。
+                      また、納期や小さなミスが<br />大きく影響する<br class="hidden-md hidden-lg"/>仕事内容が多かった為、
+                      <br/>そこで培われた計画性、注意力を生かし、<br />信頼の高い仕事をこなします。
                     </p>
                   </div>
                 </div>
@@ -91,41 +91,37 @@
           <div class="inner strengths__inner">
             <h2 class="heading heading--type2 strengths__head">STRENGTHS</h2>
             <div class="strengths__cards">
-              <div class="strengths__card strengths-card fadeIn500ms-spin">
-                <div class="strengths-card__title card-title fade-in">
+              <div class="strengths__card strengths-card">
+                <div class="strengths-card__title card-title js-in-view fade-in-up">
                   <p class="card-title__number">01</p>
                   <div class="card-title__text">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/strength/strength-title1.png" alt="" />
+                    <img src="<?php the_field('image','115');?>" alt="" />
                   </div>
                 </div>
                 <p class="strengths-card__text">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                <?php the_field('text','115');?>
                 </p>
               </div>
               <div class="strengths__card strengths-card">
-                <div class="strengths-card__title card-title fade-in">
+                <div class="strengths-card__title card-title js-in-view fade-in-up">
                   <p class="card-title__number">02</p>
                   <div class="card-title__text">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/strength/strength-title2.png" alt="" />
+                    <img src="<?php the_field('image','121');?>" alt="" />
                   </div>
                 </div>
                 <p class="strengths-card__text">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                <?php the_field('text','121');?>
                 </p>
               </div>
               <div class="strengths__card strengths-card">
-                <div class="strengths-card__title card-title fade-in">
+                <div class="strengths-card__title card-title js-in-view fade-in-up">
                   <p class="card-title__number">03</p>
                   <div class="card-title__text">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/strength/strength-title3.png" alt="" />
+                    <img src="<?php the_field('image','118');?>" alt="" />
                   </div>
                 </div>
                 <p class="strengths-card__text">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
+                <?php the_field('text','118');?>
               </div>
             </div>
           </div>
@@ -137,27 +133,27 @@
             <div class="likes__cards">
               <div class="likes__card likes-card fadeIn500ms">
                 <div class="likes-card__img">
-                  <img src="<?php echo get_template_directory_uri() ?>/img/like/like-E.png" alt="" />
+                  <img src="<?php the_field('image','18');?>" alt="" />
                 </div>
-                <p class="likes-card__title">English</p>
+                <p class="likes-card__title"><?php the_field('title','18');?></p>
               </div>
               <div class="likes__card likes-card fadeIn1s">
                 <div class="likes-card__img likes-card__img--type2">
-                  <img src="<?php echo get_template_directory_uri() ?>/img/like/like-I.png" alt="" />
+                  <img src="<?php the_field('image','21');?>" alt="" />
                 </div>
-                <p class="likes-card__title">Illustration</p>
+                <p class="likes-card__title"><?php the_field('title','18');?></p>
               </div>
               <div class="likes__card likes-card fadeIn1500ms">
                 <div class="likes-card__img likes-card__img--type3">
-                  <img src="<?php echo get_template_directory_uri() ?>/img/like/like-F.png" alt="" />
+                  <img src="<?php the_field('image','25');?>" alt="" />
                 </div>
-                <p class="likes-card__title">Fashion</p>
+                <p class="likes-card__title"><?php the_field('title','25');?></p>
               </div>
               <div class="likes__card likes-card fadeIn2s">
                 <div class="likes-card__img likes-card__img--type4">
-                  <img src="<?php echo get_template_directory_uri() ?>/img/like/like-M.png" alt="" />
+                  <img src="<?php the_field('image','28');?>" alt="" />
                 </div>
-                <p class="likes-card__title">Music</p>
+                <p class="likes-card__title"><?php the_field('title','28');?></p>
               </div>
             </div>
           </div>

@@ -148,56 +148,45 @@
             <h2 class="heading works__head">WORKS</h2>
             <div class="works__cards">
               <div class="works__card works-card fadeIn500ms">
-                <a href="" class="works-card__img">
-                  <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img1.png" class="card-img" alt="" />
+                <a href="<?php the_field('url','72');?>" class="works-card__img">
+                  <img src="<?php the_field('image','72');?>" class="card-img" alt="" />
                 </a>
-                <div class="works__texts">
-                  <h3 class="works-card__title">Portfolio site</h3>
-                  <div class="tools">
-                    <p class="tool">HTML</p>
-                    <p class="tool">CSS</p>
-                    <p class="tool">SCSS</p>
-                    <p class="tool">JavaScript</p>
-                    <p class="tool">jQuery</p>
-                    <p class="tool">WordPress</p>
-                    <p class="tool">Swiper</p>
-                    <p class="tool">figma</p>
-                  </div>
+                <div class="works__texts-box">
+                  <h3 class="works-card__title"> <?php the_field('title','72');?></h3>
+                  <p class="works-card-text1">
+                  <?php the_field('text','72');?>
+                  </p>
+                  <p class="works-card-text2">
+                  <?php the_field('skill','72');?>
+                  </p>
                 </div>
               </div>
               <div class="works__card works-card fadeIn1s">
-                <div class="works-card__img">
-                  <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img2.png" class="card-img" alt="" />
-                </div>
-                <div class="works__texts">
-                  <h3 class="works-card__title">Shop site</h3>
-                  <div class="tools">
-                    <p class="tool">HTML</p>
-                    <p class="tool">CSS</p>
-                    <p class="tool">SCSS</p>
-                    <p class="tool">JavaScript</p>
-                    <p class="tool">jQuery</p>
-                    <p class="tool">WordPress</p>
-                    <p class="tool">Swiper</p>
-                    <p class="tool">figma</p>
-                  </div>
+                <a href="<?php the_field('url','75');?>" class="works-card__img">
+                  <img src="<?php the_field('image','75');?>" class="card-img" alt="" />
+                </a>
+                <div class="works__texts-box">
+                  <h3 class="works-card__title"><?php the_field('title','75');?></h3>
+                  <p class="works-card-text1">
+                  <?php the_field('text','75');?>
+                  </p>
+                  <p class="works-card-text2">
+                  <?php the_field('skill','75');?>
+                  </p>
                 </div>
               </div>
               <div class="works__card works-card fadeIn1500ms">
-                <div class="works-card__img">
-                  <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img3.png" class="card-img" alt="" />
-                </div>
-                <div class="works__texts">
-                  <h3 class="works-card__title">Corporate site</h3>
-                  <div class="tools">
-                    <p class="tool">HTML</p>
-                    <p class="tool">CSS</p>
-                    <p class="tool">SCSS</p>
-                    <p class="tool">JavaScript</p>
-                    <p class="tool">jQuery</p>
-                    <p class="tool">WordPress</p>
-                    <p class="tool">Swiper</p>
-                  </div>
+                <a href="<?php the_field('url','78');?>" class="works-card__img">
+                  <img src="<?php the_field('image','78');?>" class="card-img" alt="" />
+                </a>
+                <div class="works__texts-box">
+                  <h3 class="works-card__title"><?php the_field('title','78');?></h3>
+                  <p class="works-card-text1">
+                  <?php the_field('text','78');?>
+                  </p>
+                  <p class="works-card-text2">
+                  <?php the_field('skill','78');?>
+                  </p>
                 </div>
               </div>
             </div>
@@ -217,8 +206,8 @@
             <div class="banner flex vertical grayscale shadow tobo">
               <p class="text">Could you possibly work with me...??</p>
               <a
-                id="contact-link"
-                href="#contact"
+                id=""
+                href="mailto:dottoz2531@gmail.com"
                 class="text nodecoration flex horizontal"
               >
                 <p>Contact me</p>

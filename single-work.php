@@ -23,20 +23,18 @@
         <section class="site-detail">
           <div class="inner site-detail__inner">
             <div class="site-detail__img rotation rotation-x">
-              <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img1.png" alt="" />
+              <img src="<?php the_field('image');?>" alt="" />
             </div>
             <h2 class="heading site-detail__head heading--type2">
-              Portfolio site
+            <?php the_field('title');?>
             </h2>
             <div class="site-detail__box">
               <div class="site-detail__textes">
                 <p class="site-detail__explanation">
-                  転職活動にあたり、自身の経歴や制作物をまとめたポートフォリオサイトです。青と白をベースカラーに、アクセントカラーのオレンジを取り入れ、
-                  視覚的に内容が入りやすいものになるようにしサイトを目指しました。
-                  また、必要最低限のページ構成でシンプルにまとめました。
+                <?php the_field('overview');?>
                 </p>
                 <div class="siteview">
-                  <a href="" class="siteview__link">
+                  <a href="<?php the_field('url');?>" class="siteview__link">
                     <span class="siteview__link-item">VIEW THE SITE</span>
                   </a>
                 </div>
@@ -52,24 +50,16 @@
                   </div>
                   <div class="site-detail__explanation site-explanation">
                     <div class="site-explanation__tag">
-                      <p class="site-explanation__title">制作時期:</p>
-                      <p class="site-explanation__text"></p>
-                    </div>
-                    <div class="site-explanation__tag">
-                      <p class="site-explanation__title">制作時間:</p>
-                      <p class="site-explanation__text">2024/9</p>
+                      <p class="site-explanation__title">制作期間:</p>
+                      <p class="site-explanation__text"><?php the_field('piriod');?></p>
                     </div>
                     <div class="site-explanation__tag">
                       <p class="site-explanation__title">ページ数:</p>
-                      <p class="site-explanation__text">3ページ</p>
+                      <p class="site-explanation__text"><?php the_field('page');?></p>
                     </div>
                     <div class="site-explanation__tag">
                       <p class="site-explanation__title">使用ツール:</p>
-                      <div class="explanation-texts">
-                        <p class="site-explanation__text">Word Press</p>
-                        <p class="site-explanation__text">github</p>
-                        <p class="site-explanation__text">figma</p>
-                      </div>
+                        <p class="site-explanation__text"><?php the_field('tool');?></p>
                     </div>
                   </div>
                 </div>
@@ -81,13 +71,9 @@
                       <img src="<?php echo get_template_directory_uri() ?>/img/works/works-title4.png" alt="" />
                     </div>
                   </div>
-                  <ul class="site-detail__items">
-                    <li class="site-detail__item">HTML</li>
-                    <li class="site-detail__item">CSS</li>
-                    <li class="site-detail__item">SCSS</li>
-                    <li class="site-detail__item">Javascript</li>
-                    <li class="site-detail__item">jQuery</li>
-                  </ul>
+                  <p class="site-detail__items">
+                  <?php the_field('tool');?>
+                  </p>
                 </div>
                 <div class="site-detail__card fadeIn1500ms">
                   <div class="site-detail__card__title site-title">
@@ -98,10 +84,7 @@
                     </div>
                   </div>
                   <p class="site-detail__text">
-                    テキストテキストテキストテキストテキストテキストテキストテキ
-                    テキストテキストテキストテキストテキストテキストテキストテキ
-                    テキストテキストテキストテキストテキストテキストテキストテキ
-                    テキストテキストテキストテキストテキストテキストテキストテキ
+                  <?php the_field('text');?>
                   </p>
                 </div>
               </div>
@@ -109,7 +92,7 @@
           </div>
         </section>
 
-        <section class="other">
+        <section id="#other" class="other">
           <div class="other__inner">
             <h2 class="heading other__head heading--type2">OTHER</h2>
             <div class="other__slider">
@@ -118,65 +101,65 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <div class="other-card__img">
+                      <a href="" class="other-card__img">
                         <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img1.png" alt="" />
-                      </div>
+                      </a>
                       <div class="other-card__text">Profile site</div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <div class="other-card__img">
+                      <a href="" class="other-card__img">
                         <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img2.png" alt="" />
-                      </div>
+                      </a>
                       <div class="other-card__text">Shop site</div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <div class="other-card__img">
+                      <a href="" class="other-card__img">
                         <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img3.png" alt="" />
-                      </div>
+                      </a>
                       <div class="other-card__text">OHA!(架空)</div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <div class="other-card__img">
+                      <a href="" class="other-card__img">
                         <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img4.png" alt="" />
-                      </div>
+                      </a>
                       <div class="other-card__text">sobolon(架空)</div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <div class="other-card__img">
+                      <a href="" class="other-card__img">
                         <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img1.png" alt="" />
-                      </div>
+                      </a>
                       <div class="other-card__text">Profile site</div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <div class="other-card__img">
+                      <a href="" class="other-card__img">
                         <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img2.png" alt="" />
-                      </div>
+                      </a>
                       <div class="other-card__text">Shop site</div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <div class="other-card__img">
+                      <a href="" class="other-card__img">
                         <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img3.png" alt="" />
-                      </div>
+                      </a>
                       <div class="other-card__text">OHA!(架空)</div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <div class="other-card__img">
+                      <a href="" class="other-card__img">
                         <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img4.png" alt="" />
-                      </div>
+                      </a>
                       <div class="other-card__text">sobolon(架空)</div>
                     </div>
                   </div>
