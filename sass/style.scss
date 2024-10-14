@@ -26,6 +26,7 @@ $breakpoints: (
 html {
   scroll-behavior: smooth;
   scroll-padding-top: $header-hight-sp;
+  overflow-x: hidden;
 
   @include mq(md) {
     scroll-padding-top: $header-hight-pc;
@@ -38,6 +39,7 @@ body {
   font-size: 16px;
   font-weight: 600;
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 //共通クラス
@@ -570,7 +572,6 @@ body {
   position: relative;
 
   @include mq(lg) {
-    
   }
 }
 
@@ -579,15 +580,11 @@ body {
   font-size: 16vw;
   text-align: center;
   font-weight: 700;
-  /*Create overlap*/
   line-height: 0;
   animation: glitch1 2.5s infinite;
 
   @include mq(md) {
-    font-size: 15vw;
-  }
-  @include mq(lg) {
-    font-size: 15vw;
+    font-size: min(700px, 14vw);
   }
 
   &:nth-child(2) {
@@ -826,7 +823,7 @@ body {
 
 .fv__title-front {
   position: absolute;
-  top: -38px;
+  top: -43px;
   left: 50px;
   color: $sub2-color;
   -webkit-text-fill-color: transparent;
@@ -837,6 +834,7 @@ body {
   flex: 1;
   transform: scaleX(var(--scale, 1));
   animation: glitch-p 7s infinite alternate;
+  overflow-x: clip;
 
   @include mq(md) {
     top: -90px;
@@ -846,8 +844,8 @@ body {
 
   @include mq(lg) {
     top: -130px;
-    left: 250px;
-    font-size: 11vw;
+    left: 240px;
+    font-size: min(600px, 11vw);
   }
 
   &::before,
@@ -1271,6 +1269,7 @@ body {
 }
 
 //work
+
 .works__inner {
   margin-block: 50px 110px;
 }
@@ -1296,6 +1295,7 @@ body {
   border: 4px solid #333;
   border-radius: 50px;
   padding: 35px 20px 60px;
+  overflow-x: clip;
 
   @include mq(md) {
     border-radius: 30px;
@@ -1448,7 +1448,7 @@ body {
   font-size: 13px;
 
   @include mq(md) {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
@@ -1464,7 +1464,7 @@ body {
   align-self: center;
 
   @include mq(md) {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 

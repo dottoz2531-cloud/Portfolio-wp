@@ -4,6 +4,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 60px;
+  overflow-x: hidden;
 }
 @media screen and (min-width: 768px) {
   html {
@@ -17,6 +18,7 @@ body {
   font-size: 16px;
   font-weight: 600;
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 600px) {
@@ -671,7 +673,6 @@ body {
   font-size: 16vw;
   text-align: center;
   font-weight: 700;
-  /*Create overlap*/
   line-height: 0;
   -webkit-animation: glitch1 2.5s infinite;
           animation: glitch1 2.5s infinite;
@@ -679,12 +680,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .fv__title-back {
-    font-size: 15vw;
-  }
-}
-@media screen and (min-width: 900px) {
-  .fv__title-back {
-    font-size: 15vw;
+    font-size: min(700px, 14vw);
   }
 }
 .fv__title-back:nth-child(2) {
@@ -1156,7 +1152,7 @@ body {
 
 .fv__title-front {
   position: absolute;
-  top: -38px;
+  top: -43px;
   left: 50px;
   color: #ffffff;
   -webkit-text-fill-color: transparent;
@@ -1171,6 +1167,7 @@ body {
           transform: scaleX(var(--scale, 1));
   -webkit-animation: glitch-p 7s infinite alternate;
           animation: glitch-p 7s infinite alternate;
+  overflow-x: clip;
 }
 @media screen and (min-width: 768px) {
   .fv__title-front {
@@ -1182,8 +1179,8 @@ body {
 @media screen and (min-width: 900px) {
   .fv__title-front {
     top: -130px;
-    left: 250px;
-    font-size: 11vw;
+    left: 240px;
+    font-size: min(600px, 11vw);
   }
 }
 .fv__title-front::before, .fv__title-front::after {
@@ -1755,6 +1752,7 @@ body {
   border: 4px solid #333;
   border-radius: 50px;
   padding: 35px 20px 60px;
+  overflow-x: clip;
 }
 @media screen and (min-width: 768px) {
   .works__card {
@@ -1919,7 +1917,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .container > .banner > p {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
@@ -1936,7 +1934,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .container > .banner > a {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 

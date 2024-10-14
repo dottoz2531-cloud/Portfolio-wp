@@ -101,7 +101,7 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="<?php the_field('url','59');?>" class="other-card__img">
+                      <a href="<?php echo home_url('/work/portfolio-site');?>" class="other-card__img">
                         <img src="<?php the_field('image','59');?>" alt="" />
                       </a>
                       <div class="other-card__text"><?php the_field('title','59');?></div>
@@ -109,7 +109,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="<?php the_field('url','61');?>" class="other-card__img">
+                      <a href="<?php echo home_url('/work/shop-site/');?>" class="other-card__img">
                         <img src="<?php the_field('image','61');?>" alt="" />
                       </a>
                       <div class="other-card__text"><?php the_field('title','61');?></div>
@@ -117,7 +117,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="<?php the_field('url','63');?>" class="other-card__img">
+                      <a href="<?php echo home_url('/work/corporate-site/');?>" class="other-card__img">
                         <img src="<?php the_field('image','63');?>" alt="" />
                       </a>
                       <div class="other-card__text"><?php the_field('title','63');?></div>
@@ -125,7 +125,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="<?php the_field('url','70');?>" class="other-card__img">
+                      <a href="<?php echo home_url('/work/corporate-site2/');?>" class="other-card__img">
                         <img src="<?php the_field('image','70');?>" alt="" />
                       </a>
                       <div class="other-card__text"><?php the_field('title','70');?></div>
@@ -133,7 +133,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="<?php the_field('url','59');?>" class="other-card__img">
+                      <a href="<?php echo home_url('/work/portfolio-site');?>" class="other-card__img">
                         <img src="<?php the_field('image','59');?>" alt="" />
                       </a>
                       <div class="other-card__text"><?php the_field('title','59');?></div>
@@ -141,7 +141,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="<?php the_field('url','61');?>" class="other-card__img">
+                      <a href="<?php echo home_url('/work/shop-site/');?>" class="other-card__img">
                         <img src="<?php the_field('image','61');?>" alt="" />
                       </a>
                       <div class="other-card__text"><?php the_field('title','61');?></div>
@@ -149,7 +149,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="<?php the_field('url','63');?>" class="other-card__img">
+                      <a href="<?php echo home_url('/work/corporate-site/');?>" class="other-card__img">
                         <img src="<?php the_field('image','63');?>" alt="" />
                       </a>
                       <div class="other-card__text"><?php the_field('title','63');?></div>
@@ -157,7 +157,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="<?php the_field('url','70');?>" class="other-card__img">
+                      <a href="<?php echo home_url('/work/corporate-site2/');?>" class="other-card__img">
                         <img src="<?php the_field('image','70');?>" alt="" />
                       </a>
                       <div class="other-card__text"><?php the_field('title','70');?></div>

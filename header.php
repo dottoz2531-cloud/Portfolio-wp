@@ -37,12 +37,7 @@
           <nav id="js-drawer-content" class="header__nav">
             <ul class="header__lists">
               <li class="header__list">
-              <?php if(have_posts()): ?>
-                      <?php while(have_posts()) :?>
-                        <?php the_post(); ?>
-                <a href="<?php the_permalink(); ?>#about" class="header__link">
-                <?php endwhile;?>
-                <?php endif;?>
+                <a href="<?php echo home_url('/aboutページ');?>#about" class="header__link">
                   <span class="link__text">ABOUT</span>
                   <span class="link__text">詳しく</span>
                 </a>
