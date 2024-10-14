@@ -191,7 +191,7 @@
               </div>
             </div>
             <div class="works__button">
-              <a href="" class="button">
+              <a href="http://portfolio.local/work/portfolio-site/ #other" class="button">
                 <span class="btn__text">View More...</span>
                 <span class="btn__text">Let's View!</span>
               </a>

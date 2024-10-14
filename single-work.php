@@ -101,66 +101,66 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="" class="other-card__img">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img1.png" alt="" />
+                      <a href="<?php the_field('url','59');?>" class="other-card__img">
+                        <img src="<?php the_field('image','59');?>" alt="" />
                       </a>
-                      <div class="other-card__text">Profile site</div>
+                      <div class="other-card__text"><?php the_field('title','59');?></div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="" class="other-card__img">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img2.png" alt="" />
+                      <a href="<?php the_field('url','61');?>" class="other-card__img">
+                        <img src="<?php the_field('image','61');?>" alt="" />
                       </a>
-                      <div class="other-card__text">Shop site</div>
+                      <div class="other-card__text"><?php the_field('title','61');?></div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="" class="other-card__img">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img3.png" alt="" />
+                      <a href="<?php the_field('url','63');?>" class="other-card__img">
+                        <img src="<?php the_field('image','63');?>" alt="" />
                       </a>
-                      <div class="other-card__text">OHA!(架空)</div>
+                      <div class="other-card__text"><?php the_field('title','63');?></div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="" class="other-card__img">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img4.png" alt="" />
+                      <a href="<?php the_field('url','70');?>" class="other-card__img">
+                        <img src="<?php the_field('image','70');?>" alt="" />
                       </a>
-                      <div class="other-card__text">sobolon(架空)</div>
+                      <div class="other-card__text"><?php the_field('title','70');?></div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="" class="other-card__img">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img1.png" alt="" />
+                      <a href="<?php the_field('url','59');?>" class="other-card__img">
+                        <img src="<?php the_field('image','59');?>" alt="" />
                       </a>
-                      <div class="other-card__text">Profile site</div>
+                      <div class="other-card__text"><?php the_field('title','59');?></div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="" class="other-card__img">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img2.png" alt="" />
+                      <a href="<?php the_field('url','61');?>" class="other-card__img">
+                        <img src="<?php the_field('image','61');?>" alt="" />
                       </a>
-                      <div class="other-card__text">Shop site</div>
+                      <div class="other-card__text"><?php the_field('title','61');?></div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="" class="other-card__img">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img3.png" alt="" />
+                      <a href="<?php the_field('url','63');?>" class="other-card__img">
+                        <img src="<?php the_field('image','63');?>" alt="" />
                       </a>
-                      <div class="other-card__text">OHA!(架空)</div>
+                      <div class="other-card__text"><?php the_field('title','63');?></div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="other-card">
-                      <a href="" class="other-card__img">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/works/works-img4.png" alt="" />
+                      <a href="<?php the_field('url','70');?>" class="other-card__img">
+                        <img src="<?php the_field('image','70');?>" alt="" />
                       </a>
-                      <div class="other-card__text">sobolon(架空)</div>
+                      <div class="other-card__text"><?php the_field('title','70');?></div>
                     </div>
                   </div>
                 </div>
