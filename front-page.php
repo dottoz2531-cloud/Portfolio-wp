@@ -86,19 +86,18 @@
                     <div class="skill__img">
                       <img
                         class="rotation rotation-y"
-                        src="<?php echo get_template_directory_uri() ?>/img/skill/skill-img-cd.png"
+                        src="<?php the_field('image','141');?>"
                         alt=""
                       />
                     </div>
                     <div class="skill__detail">
                       <h2>
                         <span class="skill__title js-in-view fade-in-up"
-                          >WEB Coding</span
+                          ><?php the_field('title','141');?></span
                         >
                       </h2>
                       <p class="skill__text">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      <?php the_field('text','141');?>
                       </p>
                     </div>
                   </div>
@@ -123,17 +122,16 @@
                     <div class="skill__img">
                       <img
                         class="rotation rotation-y"
-                        src="<?php echo get_template_directory_uri() ?>/img/skill/skill-img-wp.png"
+                        src="<?php the_field('image','144');?>"
                         alt=""
                       />
                     </div>
                     <div class="skill__detail">
                       <h3 class="skill__title-wp js-in-view fade-in-up">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/skill/wp-title.png" alt="" />
+                        <img src="<?php the_field('title-image','144');?>" alt="" />
                       </h3>
                       <p class="skill__text">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      <?php the_field('text','144');?>
                       </p>
                     </div>
                   </div>
