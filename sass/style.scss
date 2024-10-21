@@ -39,7 +39,6 @@ body {
   font-size: 16px;
   font-weight: 600;
   line-height: 1.7;
-  overflow-x: hidden;
 }
 
 //共通クラス
@@ -307,6 +306,7 @@ body {
 .main {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
   gap: 110px;
 
   @include mq(md) {
@@ -351,10 +351,10 @@ body {
 
 .header__nav {
   width: 270px;
-  height: calc(100% - 145px);
+  height: calc(100% - $header-hight-sp);
   position: fixed;
   right: 0;
-  top: 145px;
+  top: calc($header-hight-sp + 38px);
   background: $sub-color;
   padding: 40px 15px;
   transform: translateX(100%);

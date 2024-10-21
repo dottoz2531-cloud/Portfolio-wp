@@ -40,21 +40,21 @@
                 <div class="profile__img">
                   <img
                     class="profile__img-main rotation rotation-y"
-                    src="<?php the_field('image','184');?>"
+                    src="<?php the_field('image','182');?>"
                     alt=""
                   />
                 </div>
                 <div class="profile__detail">
                   <div class="profile__name">
                     <div class="profile__name-jp js-in-view fade-in-up">
-                    <?php the_field('name-jp','184');?>
+                    <?php the_field('name-jp','182');?>
                     </div>
                     <p class="profile__name-en js-in-view fade-in-up">
-                    <?php the_field('name-en','184');?>
+                    <?php the_field('name-en','182');?>
                     </p>
                   </div>
                   <p class="profile__text">
-                  <?php echo nl2br(get_field('text','184'));?>
+                  <?php echo nl2br(get_field('text','182'));?>
                   </p>
                   <div class="profile__button">
                   <?php if(have_posts()): ?>
