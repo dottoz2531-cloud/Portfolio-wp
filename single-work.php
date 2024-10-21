@@ -31,7 +31,7 @@
             <div class="site-detail__box">
               <div class="site-detail__textes">
                 <p class="site-detail__explanation">
-                <?php the_field('overview');?>
+                <?php echo nl2br(get_field('overview'));?>
                 </p>
                 <div class="siteview">
                   <a href="<?php the_field('url');?>" class="siteview__link">
@@ -72,7 +72,7 @@
                     </div>
                   </div>
                   <p class="site-detail__items">
-                  <?php the_field('tool');?>
+                  <?php the_field('program');?>
                   </p>
                 </div>
                 <div class="site-detail__card fadeIn1500ms">
@@ -84,7 +84,7 @@
                     </div>
                   </div>
                   <p class="site-detail__text">
-                  <?php the_field('text');?>
+                  <?php echo nl2br(get_field('text'));?>
                   </p>
                 </div>
               </div>

@@ -23,26 +23,20 @@
             <div class="about__area">
               <div class="about__box">
                 <div class="about__img rotation rotation-y">
-                  <img src="<?php echo get_template_directory_uri() ?>/img/profile/profile-2.png" alt="" />
+                  <img src="<?php the_field('image','189');?>" alt="" />
                 </div>
                 <div class="about__content">
                   <div class="about__detail">
                     <div class="about__name">
                       <p class="about__name-jp js-in-view fade-in-up">
-                        岡村 歩実
+                      <?php the_field('name-jp','189');?>
                       </p>
                       <p class="about__name-en js-in-view fade-in-up">
-                        Ayumi Okamura
+                      <?php the_field('name-en','189');?>
                       </p>
                     </div>
                     <p class="about__text">
-                      現在、SESで開発保守として働きながら、<br />
-                      2024年5月〜デイトラWEB制作コースで、<br />
-                      プログラミングの勉強を始めました。<br />
-                      アパレル企業に勤めていた時からある、<br />
-                      専門性のあるものへの好奇心、追求心、<br />
-                      また、納期や小さなミスが<br />大きく影響する<br class="hidden-md hidden-lg"/>仕事内容が多かった為、
-                      <br/>そこで培われた計画性、注意力を生かし、<br />信頼の高い仕事をこなします。
+                    <?php echo nl2br(get_field('text','189'));?>
                     </p>
                   </div>
                 </div>
@@ -76,7 +70,7 @@
               <div class="career__box career-box fadeIn2s-up">
                 <p class="career-box__day">2023.2</p>
                 <p class="career-box__text">
-                  株式会社テクノ・ポッセ　SESとして入社 (現在は金融系の開発保守)
+                  株式会社テクノ・ポッセ　SESとして入社 <br class="hidden-md" />現在は金融系の開発保守
                 </p>
               </div>
               <div class="career__box career-box fadeIn2500ms-up">
@@ -99,7 +93,7 @@
                   </div>
                 </div>
                 <p class="strengths-card__text">
-                <?php the_field('text','115');?>
+                <?php echo nl2br(get_field('text','115'));?>
                 </p>
               </div>
               <div class="strengths__card strengths-card">
@@ -110,7 +104,7 @@
                   </div>
                 </div>
                 <p class="strengths-card__text">
-                <?php the_field('text','121');?>
+                <?php echo nl2br(get_field('text','121'));?>
                 </p>
               </div>
               <div class="strengths__card strengths-card">
@@ -121,7 +115,7 @@
                   </div>
                 </div>
                 <p class="strengths-card__text">
-                <?php the_field('text','118');?>
+                <?php echo nl2br(get_field('text','118'));?>
               </div>
             </div>
           </div>

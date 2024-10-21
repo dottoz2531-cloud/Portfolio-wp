@@ -410,10 +410,10 @@ body {
 
 .header__nav {
   width: 270px;
-  height: calc(100% - 60px);
+  height: calc(100% - 145px);
   position: fixed;
   right: 0;
-  top: 60px;
+  top: 145px;
   background: #ff613f;
   padding: 40px 15px;
   -webkit-transform: translateX(100%);
@@ -1432,7 +1432,7 @@ body {
 
 .profile__detail {
   text-align: left;
-  margin-inline: 20px;
+  margin-inline: 15px;
 }
 @media screen and (min-width: 768px) {
   .profile__detail {
@@ -1477,7 +1477,7 @@ body {
 
 .profile__text {
   margin-block: 30px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
 }
 @media screen and (min-width: 768px) {
@@ -1676,6 +1676,8 @@ body {
 .skill__text {
   margin-top: 20px;
   font-size: 13px;
+  font-weight: 600;
+  text-align: left;
 }
 @media screen and (min-width: 768px) {
   .skill__text {
@@ -2145,6 +2147,7 @@ body {
 
 .about__area {
   padding-block: 50px 60px;
+  padding-inline: 20px;
   border: 4px solid #ff613f;
   border-radius: 50px;
 }
@@ -2241,6 +2244,7 @@ body {
 }
 
 .about__text {
+  text-align: left;
   margin-top: 40px;
   font-size: 14px;
   font-weight: 600;
@@ -2440,12 +2444,12 @@ body {
 }
 
 .career-box__text {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
 }
 @media screen and (min-width: 768px) {
   .career-box__text {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 900px) {
@@ -2455,13 +2459,13 @@ body {
 }
 
 .mr20 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   margin-right: 20px;
 }
 @media screen and (min-width: 768px) {
   .mr20 {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 900px) {
@@ -2499,6 +2503,7 @@ body {
       -ms-flex-align: end;
           align-items: flex-end;
   gap: 20px;
+  margin-top: 20px;
 }
 
 .card-title__number {
@@ -2533,14 +2538,21 @@ body {
 
 .strengths-card__text {
   max-width: 85.3333333333%;
-  margin-top: 20px;
+  margin-top: 35px;
   margin-left: 45px;
   color: #ffffff;
+  font-size: 14px;
 }
 @media screen and (min-width: 768px) {
   .strengths-card__text {
     margin-left: 100px;
     max-width: 85.3333333333%;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .strengths-card__text {
+    font-size: 18px;
   }
 }
 
@@ -2639,7 +2651,7 @@ body {
   content: "着るのも見るのも好きです!";
 }
 .likes-card__img--type4::after {
-  content: "音楽なしで生きられないです…🤟";
+  content: "最近ウクレレを弾いています…🌺";
 }
 .likes-card__img img {
   width: 100%;
@@ -2886,7 +2898,7 @@ body {
 }
 
 .site-detail__items {
-  font-size: 18px;
+  font-size: 17px;
 }
 @media screen and (min-width: 768px) {
   .site-detail__items {
@@ -2902,7 +2914,7 @@ body {
 }
 
 .site-explanation__title {
-  font-size: 18px;
+  font-size: 17px;
 }
 @media screen and (min-width: 768px) {
   .site-explanation__title {
@@ -2911,7 +2923,6 @@ body {
 }
 
 .site-explanation__text {
-  padding-top: 2px;
   font-size: 16px;
 }
 

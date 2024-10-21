@@ -40,24 +40,21 @@
                 <div class="profile__img">
                   <img
                     class="profile__img-main rotation rotation-y"
-                    src="<?php echo get_template_directory_uri() ?>/img/profile/profile-1.png"
+                    src="<?php the_field('image','184');?>"
                     alt=""
                   />
                 </div>
                 <div class="profile__detail">
                   <div class="profile__name">
                     <div class="profile__name-jp js-in-view fade-in-up">
-                      岡村 歩実
+                    <?php the_field('name-jp','184');?>
                     </div>
                     <p class="profile__name-en js-in-view fade-in-up">
-                      Ayumi Okamura
+                    <?php the_field('name-en','184');?>
                     </p>
                   </div>
                   <p class="profile__text">
-                    1996年東京生まれ<br />
-                    文化服装学園を卒業後、<br class="hidden-lg"/>アパレル企業で
-                    パタンナー、生産管理を経験。 <br />IT業界に転職し、
-                    手に職を付けたいと思い、<br class="hidden-lg"/>デイトラにてWeb制作を学ぶ。
+                  <?php echo nl2br(get_field('text','184'));?>
                   </p>
                   <div class="profile__button">
                   <?php if(have_posts()): ?>
@@ -86,19 +83,18 @@
                     <div class="skill__img">
                       <img
                         class="rotation rotation-y"
-                        src="<?php echo get_template_directory_uri() ?>/img/skill/skill-img-cd.png"
+                        src="<?php the_field('image','141');?>"
                         alt=""
                       />
                     </div>
                     <div class="skill__detail">
                       <h2>
                         <span class="skill__title js-in-view fade-in-up"
-                          >WEB Coding</span
+                          ><?php the_field('title','141');?></span
                         >
                       </h2>
                       <p class="skill__text">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      <?php echo nl2br(get_field('text','141'));?>
                       </p>
                     </div>
                   </div>
@@ -112,8 +108,8 @@
                       <p class="tool">SCSS</p>
                       <p class="tool">JavaScript</p>
                       <p class="tool">jQuery</p>
-                      <p class="tool">WordPress</p>
                       <p class="tool">Swiper</p>
+                      <p class="tool">Visual Studio Code</p>
                       <p class="tool">github</p>
                     </div>
                   </div>
@@ -123,17 +119,16 @@
                     <div class="skill__img">
                       <img
                         class="rotation rotation-y"
-                        src="<?php echo get_template_directory_uri() ?>/img/skill/skill-img-wp.png"
+                        src="<?php the_field('image','144');?>"
                         alt=""
                       />
                     </div>
                     <div class="skill__detail">
                       <h3 class="skill__title-wp js-in-view fade-in-up">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/skill/wp-title.png" alt="" />
+                        <img src="<?php the_field('title-image','144');?>" alt="" />
                       </h3>
                       <p class="skill__text">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      <?php echo nl2br(get_field('text','144'));?>
                       </p>
                     </div>
                   </div>
@@ -218,13 +213,13 @@
           <div class="contact__items">
             <ul class="contact__link-items">
               <li class="contact__link-item">
-                <a href="" class="site__link">
+                <a href="https://github.com/dottoz2531-cloud?tab=repositories" class="site__link">
                   <img class="is-github" src="<?php echo get_template_directory_uri() ?>/img/github.png" alt="" />
                 </a>
               </li>
               <li class="contact__link-item">
                 <a
-                  href="https://github.com/dottoz2531-cloud?tab=repositories"
+                  href="#is-wantedly"
                   class="site__link"
                 >
                   <img class="is-wantedly" src="<?php echo get_template_directory_uri() ?>/img/wantedly.png" alt="" />
