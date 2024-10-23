@@ -74,12 +74,6 @@ body {
   }
 }
 
-.section {
-}
-
-.section__head {
-}
-
 .section__content {
   margin-top: 45px;
 
@@ -555,11 +549,13 @@ body {
 
 .fv {
   background: $main-color;
+  
 }
 
 .fv__inner {
   padding-top: 300px;
   padding-bottom: 300px;
+  
 
   @include mq(md) {
     padding-top: 470px;
@@ -570,9 +566,6 @@ body {
 .fv__title {
   padding-block: 10px;
   position: relative;
-
-  @include mq(lg) {
-  }
 }
 
 .fv__title-back {

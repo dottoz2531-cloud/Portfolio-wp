@@ -4,9 +4,15 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="robots" content="noindex" />
-      <title>profile</title>
+      <title>Ayumi's Portfolio</title>
       <meta name="description" content="岡村歩実のポートフォリオです。" />
-      <link rel="icon" href="" />
+      <link rel="icon" href="<?php echo get_template_directory_uri() ?>/img/header-icon.png" />
+      <head prefix="og: https://ogp.me/ns#">
+      <meta property="og:title" content="Ayumi's Portfolio">
+      <meta property="og:url" content="">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="./img/og-image.png">
+      <meta property=”og:description” content="岡村歩実のポートフォリオです。" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,7 +43,7 @@
           <nav id="js-drawer-content" class="header__nav">
             <ul class="header__lists">
               <li class="header__list">
-                <a href="<?php echo home_url('/aboutページ');?>#about" class="header__link">
+                <a href="<?php echo home_url('/aboutページ');?>" class="header__link">
                   <span class="link__text">ABOUT</span>
                   <span class="link__text">詳しく</span>
                 </a>
