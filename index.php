@@ -186,7 +186,7 @@
               </div>
             </div>
             <div class="works__button">
-              <a href="<?php echo home_url('work/portfolio-site/');?> #other" class="button">
+              <a href="<?php echo home_url('work/portfolio-site/');?>#other" class="button">
                 <span class="btn__text">View More...</span>
                 <span class="btn__text">Let's View!</span>
               </a>
@@ -213,7 +213,7 @@
           <div class="contact__items">
             <ul class="contact__link-items">
               <li class="contact__link-item">
-                <a href="https://github.com/dottoz2531-cloud?tab=repositories" class="site__link">
+                <a href="https://github.com/dottoz2531-cloud" class="site__link">
                   <img class="is-github" src="<?php echo get_template_directory_uri() ?>/img/github.png" alt="" />
                 </a>
               </li>
