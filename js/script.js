@@ -260,17 +260,18 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
-//work-card
+//works-card
 $(function () {
   $(window).scroll(function () {
     const wHeight = $(window).height();
     const wScroll = $(window).scrollTop();
-    $(".works-card").each(function () {
+    $(".works__card").each(function () {
       const bPosition = $(this).offset().top;
       if (wScroll > bPosition - wHeight + 200) {
         $(".fadeIn500ms").addClass("fadeInAnime500ms");
         $(".fadeIn1s").addClass("fadeInAnime1s");
         $(".fadeIn1500ms").addClass("fadeInAnime1500ms");
+        $(".fadeIn2s").addClass("fadeInAnime2s");
       }
     });
   });
@@ -339,3 +340,4 @@ jQuery(window).on("scroll", function () {
     jQuery("#js-pagetop").removeClass("is-show");
   }
 });
+
