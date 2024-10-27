@@ -575,7 +575,7 @@ body {
   animation: glitch1 2.5s infinite;
 
   @include mq(md) {
-    font-size: min(1200%, 14vw);
+    font-size: min(160px, 11vw);
   }
 
   &:nth-child(2) {
@@ -836,7 +836,7 @@ body {
   @include mq(lg) {
     top: -140px;
     left: 200px;
-    font-size: min(1000%, 11vw);
+    font-size: min(110px, 9vw);
   }
 
   &::before,
