@@ -3,16 +3,18 @@
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="robots" content="noindex" />
+      <meta name="robots" content=""/>
       <title>Ayumi's Portfolio</title>
       <meta name="description" content="岡村歩実のポートフォリオです。" />
-      <link rel="icon" href="<?php echo get_template_directory_uri() ?>/img/header-icon.png" />
-      <head prefix="og: https://ogp.me/ns#">
-      <meta property="og:title" content="Ayumi's Portfolio">
-      <meta property="og:url" content="">
-      <meta property="og:type" content="website">
-      <meta property="og:image" content="./img/og-image.png">
+      <head prefix="og:https://ogp.me/ns#">
+      <meta property=”og:site_name” content="Ayumi's Portfolio" />
+      <meta property="og:title" content="Ayumi's Portfolio"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:url" content="http://portfolio.dozzot.com/"/>
+      <meta property="og:image" content="<?php echo get_template_directory_uri() ?>/img/og-image.png"/>
       <meta property=”og:description” content="岡村歩実のポートフォリオです。" />
+
+      <link rel="icon" href="<?php echo get_template_directory_uri() ?>/img/header-icon.png" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

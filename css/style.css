@@ -681,7 +681,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .fv__title-back {
-    font-size: min(1200%, 14vw);
+    font-size: min(160px, 11vw);
   }
 }
 .fv__title-back:nth-child(2) {
@@ -1181,7 +1181,7 @@ body {
   .fv__title-front {
     top: -140px;
     left: 200px;
-    font-size: min(1000%, 11vw);
+    font-size: min(110px, 9vw);
   }
 }
 .fv__title-front::before, .fv__title-front::after {
