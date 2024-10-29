@@ -210,7 +210,7 @@
               <p class="text">Could you possibly work with me...??</p>
               <a
                 id=""
-                href="mailto:mchice0716@icloud.com"
+                href="mailto:dottoz2531@gmail.com,mchice0716@icloud.com"
                 class="text nodecoration flex horizontal"
               >
                 <p>Contact me</p>

@@ -1153,8 +1153,8 @@ body {
 
 .fv__title-front {
   position: absolute;
-  top: -43px;
-  left: 50px;
+  top: -38px;
+  left: 39px;
   color: #ffffff;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px #ffffff;
@@ -1172,15 +1172,15 @@ body {
 }
 @media screen and (min-width: 768px) {
   .fv__title-front {
-    top: -90px;
-    left: 115px;
-    font-size: 12vw;
+    top: -70px;
+    left: 137px;
+    font-size: 10vw;
   }
 }
 @media screen and (min-width: 900px) {
   .fv__title-front {
-    top: -140px;
-    left: 200px;
+    top: -105px;
+    left: 305px;
     font-size: min(110px, 9vw);
   }
 }

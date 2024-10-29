@@ -814,8 +814,8 @@ body {
 
 .fv__title-front {
   position: absolute;
-  top: -43px;
-  left: 50px;
+  top: -38px;
+  left: 39px;
   color: $sub2-color;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px $sub2-color;
@@ -828,14 +828,14 @@ body {
   overflow-x: clip;
 
   @include mq(md) {
-    top: -90px;
-    left: 115px;
-    font-size: 12vw;
+    top: -70px;
+    left: 137px;
+    font-size: 10vw;
   }
 
   @include mq(lg) {
-    top: -140px;
-    left: 200px;
+    top: -105px;
+    left: 305px;
     font-size: min(110px, 9vw);
   }
 
