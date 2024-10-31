@@ -143,7 +143,7 @@
             <div class="heading works__head">WORKS</div>
             <div class="works__cards">
               <div class="works__card works-card fadeIn500ms">
-                <a href="<?php echo home_url('/work/portfolio-site');?>" class="gallery-card__img">
+                <a href="<?php echo home_url('/work/portfolio-site');?>" class="works-card__img">
                   <img
                     src="<?php the_field('image','72');?>"
                     alt=""

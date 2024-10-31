@@ -1,4 +1,4 @@
-<?php get_header();?>
+<?php get_template_part('template-parts/header2'); ?>
 
         <div class="c-text no-tick js-tick">
           <div class="c-text__item js-tick-item">

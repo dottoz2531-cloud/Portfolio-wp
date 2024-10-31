@@ -42,7 +42,7 @@
             <span class="drawer-icon__bar"></span>
           </button>
 
-          <nav id="js-drawer-content" class="header__nav">
+          <nav id="js-drawer-content2" class="header__nav">
             <ul class="header__lists">
               <li class="header__list">
                 <a href="<?php echo home_url('/aboutページ');?>" class="header__link">
@@ -51,19 +51,19 @@
                 </a>
               </li>
               <li class="header__list">
-                <a href="#skill" class="header__link">
+                <a href="<?php echo home_url('/');?>#skill" class="header__link">
                   <span class="link__text">SKILL</span>
                   <span class="link__text">スキル</span>
                 </a>
               </li>
               <li class="header__list">
-                <a href="#works" class="header__link">
+                <a href="<?php echo home_url('/');?>#works" class="header__link">
                   <span class="link__text">WORKS</span>
                   <span class="link__text">作品一覧</span>
                 </a>
               </li>
               <li class="header__list">
-                <a href="#contact" class="header__link">
+                <a href="<?php echo home_url('/');?>#contact" class="header__link">
                   <span class="link__text">CONTACT</span>
                   <span class="link__text">お問い合わせ</span>
                 </a>

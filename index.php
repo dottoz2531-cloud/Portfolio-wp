@@ -139,57 +139,65 @@
         </section>
 
         <section id="works" class="works">
-          <div class="works__inner inner">
-            <h2 class="heading works__head">WORKS</h2>
+          <div class="works__inner">
+            <div class="heading works__head">WORKS</div>
             <div class="works__cards">
               <div class="works__card works-card fadeIn500ms">
                 <a href="<?php echo home_url('/work/portfolio-site');?>" class="works-card__img">
-                  <img src="<?php the_field('image','72');?>" class="card-img" alt="" />
+                  <img
+                    src="<?php the_field('image','72');?>"
+                    alt=""
+                    class="works-img"
+                  />
                 </a>
-                <div class="works__texts-box">
-                  <h3 class="works-card__title"> <?php the_field('title','72');?></h3>
-                  <p class="works-card-text1">
-                  <?php the_field('text','72');?>
-                  </p>
-                  <p class="works-card-text2">
-                  <?php the_field('skill','72');?>
-                  </p>
+                <div class="works__texts">
+                  <h3 class="works__title"><?php the_field('title','72');?></h3>
+                  <p class="works__text-1"><?php the_field('text','72');?></p>
+                  <p class="works__text-2"><?php the_field('skill','72');?></p>
                 </div>
               </div>
               <div class="works__card works-card fadeIn1s">
                 <a href="<?php echo home_url('/work/shop-site/');?>" class="works-card__img">
-                  <img src="<?php the_field('image','75');?>" class="card-img" alt="" />
+                  <img
+                    src="<?php the_field('image','75');?>"
+                    alt=""
+                    class="works-img"
+                  />
                 </a>
-                <div class="works__texts-box">
-                  <h3 class="works-card__title"><?php the_field('title','75');?></h3>
-                  <p class="works-card-text1">
-                  <?php the_field('text','75');?>
-                  </p>
-                  <p class="works-card-text2">
-                  <?php the_field('skill','75');?>
-                  </p>
+                <div class="works__texts">
+                  <h3 class="works__title"><?php the_field('title','75');?></h3>
+                  <p class="works__text-1"><?php the_field('text','75');?></p>
+                  <p class="works__text-2"><?php the_field('skill','72');?></p>
                 </div>
               </div>
               <div class="works__card works-card fadeIn1500ms">
                 <a href="<?php echo home_url('/work/corporate-site/');?>" class="works-card__img">
-                  <img src="<?php the_field('image','78');?>" class="card-img" alt="" />
+                  <img
+                    src="<?php the_field('image','78');?>"
+                    alt=""
+                    class="works-img"
+                  />
                 </a>
-                <div class="works__texts-box">
-                  <h3 class="works-card__title"><?php the_field('title','78');?></h3>
-                  <p class="works-card-text1">
-                  <?php the_field('text','78');?>
-                  </p>
-                  <p class="works-card-text2">
-                  <?php the_field('skill','78');?>
-                  </p>
+                <div class="works__texts">
+                  <h3 class="works__title"><?php the_field('title','78');?></h3>
+                  <p class="works__text-1"><?php the_field('text','78');?></p>
+                  <p class="works__text-2"><?php the_field('skill','78');?></p>
                 </div>
               </div>
-            </div>
-            <div class="works__button">
-              <a href="<?php echo home_url('work/portfolio-site/');?>#other" class="button">
-                <span class="btn__text">View More...</span>
-                <span class="btn__text">Let's View!</span>
-              </a>
+              <div class="works__card works-card fadeIn2s">
+                <a href="<?php echo home_url('/work/corporate-site2/');?>" class="works-card__img">
+                  <img
+                    src="<?php the_field('image','227');?>"
+                    alt=""
+                    class="works-img"
+                  />
+                </a>
+                <div class="works__texts">
+                  <h3 class="works__title"><?php the_field('title','227');?></h3>
+                  <p class="works__text-1"><?php the_field('text','227');?></p>
+                  <p class="works__text-2"><?php the_field('skill','227');?></p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -202,7 +210,7 @@
               <p class="text">Could you possibly work with me...??</p>
               <a
                 id=""
-                href="mailto:dottoz2531@gmail.com"
+                href="mailto:dottoz2531@gmail.com,mchice0716@icloud.com"
                 class="text nodecoration flex horizontal"
               >
                 <p>Contact me</p>
