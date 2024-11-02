@@ -2,19 +2,16 @@
 
         <div class="c-text no-tick js-tick">
           <div class="c-text__item js-tick-item">
-            <span class="mgr-20">Thank you for click！</span>Thank you for
-            click！
-            ここまで見に来てくれくれるなんて...！ありがとうございます！！
+            <span class="mgr-20">Thank you for click！</span
+            >ここまで見に来てくれくれるなんて...！ありがとうございます！！
           </div>
           <div class="c-text__item js-tick-item">
-            <span class="mgr-20">Thank you for click！</span>Thank you for
-            click！
-            ここまで見に来てくれくれるなんて...！ありがとうございます！！
+          <span class="mgr-20">Thank you for click！</span
+            >ここまで見に来てくれくれるなんて...！ありがとうございます！！
           </div>
           <div class="c-text__item js-tick-item">
-            <span class="mgr-20">Thank you for click！</span>Thank you for
-            click！
-            ここまで見に来てくれくれるなんて...！ありがとうございます！！
+          <span class="mgr-20">Thank you for click！</span
+            >ここまで見に来てくれくれるなんて...！ありがとうございます！！
           </div>
         </div>
       </header>
@@ -34,10 +31,13 @@
                 <?php echo nl2br(get_field('overview'));?>
                 </p>
                 <div class="siteview">
-                  <a href="<?php the_field('url');?>" class="siteview__link">
-                    <span class="siteview__link-item">VIEW THE SITE</span>
+                  <a href="<?php the_field('url');?>" class="button">
+                  <span class="btn__text">Go To Site</span>
+                  <span class="btn__text">Let's Go!</span>
                   </a>
                 </div>
+                <p class="basic__pass"><?php the_field('basic-pass');?>
+                </p>
               </div>
               <div class="site-detail__cards">
                 <div class="site-detail__card fadeIn500ms">

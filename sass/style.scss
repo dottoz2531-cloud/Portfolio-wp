@@ -1261,8 +1261,6 @@ body {
   }
 }
 
-
-
 //contact
 .contact {
   background-color: $main-color;
@@ -2088,57 +2086,67 @@ body {
   }
 }
 
-.siteview__link {
-  text-decoration: none;
-  -webkit-text-fill-color: $sub2-color;
-  -webkit-text-stroke: 2px $sub-color;
+.basic__pass {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 13px;
 
   @include mq(md) {
-    font-size: 40px;
+    font-size: 14px;
   }
 }
 
-.siteview__link-item {
-  font-size: 30px;
-  font-weight: 800;
-  position: relative;
-  z-index: 1;
-  transition: 0.4s cubic-bezier(0.37, 0, 0.63, 1);
+//.siteview__link {
+//  text-decoration: none;
+//  -webkit-text-fill-color: $sub2-color;
+//  -webkit-text-stroke: 2px $sub-color;
+//
+//  @include mq(md) {
+//    font-size: 40px;
+// }
+//}
 
-  &:hover {
-    letter-spacing: 0.1em;
-  }
+//.siteview__link-item {
+//  font-size: 30px;
+//  font-weight: 800;
+//  position: relative;
+//  z-index: 1;
+//  transition: 0.4s cubic-bezier(0.37, 0, 0.63, 1);
+//
+//  &:hover {
+//    letter-spacing: 0.1em;
+//  }
+//
+//  &::after {
+//    content: "";
+//    position: absolute;
+//    left: 0;
+//    bottom: -5px;
+//    width: 0%;
+//    height: 2px;
+//    background: $sub-color;
+//    z-index: -1;
+//    transition: all 0.4s; /*アニメーション速度*/
+//  }
+//}
+//.siteview__link:hover .siteview__link-item:after {
+//  width: 100%;
+//}
 
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -5px; /*テキストからの距離*/
-    width: 0%; /*初期状態では下線非表示*/
-    height: 2px; /*下線の高さ*/
-    background: $sub-color;
-    z-index: -1;
-    transition: all 0.4s; /*アニメーション速度*/
-  }
-}
-.siteview__link:hover .siteview__link-item:after {
-  width: 100%;
-}
+//.c-txt.line:hover::before {
+//  transform-origin: left top;
+//  transform: scale(1, 1);
+//}
 
-.c-txt.line:hover::before {
-  transform-origin: left top;
-  transform: scale(1, 1);
-}
-
-.arrow {
-  position: relative;
-  display: inline-block;
-  padding: 12px;
-}
-
-.arrow.arrow-right::before {
-  transform: rotate(45deg);
-}
+//.arrow {
+//  position: relative;
+//  display: inline-block;
+//  padding: 12px;
+//}
+//
+//.arrow.arrow-right::before {
+//  transform: rotate(45deg);
+//}
 
 .site-detail__cards {
   margin-top: 50px;
@@ -2404,7 +2412,6 @@ body {
   background: $sub-color;
   color: $sub2-color;
   font-weight: 500;
-
 
   @include mq(md) {
     font-size: 15px;

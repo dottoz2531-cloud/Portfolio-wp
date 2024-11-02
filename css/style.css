@@ -2616,61 +2616,15 @@ body {
   }
 }
 
-.siteview__link {
-  text-decoration: none;
-  -webkit-text-fill-color: #ffffff;
-  -webkit-text-stroke: 2px #ff613f;
+.basic__pass {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 13px;
 }
 @media screen and (min-width: 768px) {
-  .siteview__link {
-    font-size: 40px;
+  .basic__pass {
+    font-size: 14px;
   }
-}
-
-.siteview__link-item {
-  font-size: 30px;
-  font-weight: 800;
-  position: relative;
-  z-index: 1;
-  -webkit-transition: 0.4s cubic-bezier(0.37, 0, 0.63, 1);
-  transition: 0.4s cubic-bezier(0.37, 0, 0.63, 1);
-}
-.siteview__link-item:hover {
-  letter-spacing: 0.1em;
-}
-.siteview__link-item::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -5px; /*テキストからの距離*/
-  width: 0%; /*初期状態では下線非表示*/
-  height: 2px; /*下線の高さ*/
-  background: #ff613f;
-  z-index: -1;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s; /*アニメーション速度*/
-}
-
-.siteview__link:hover .siteview__link-item:after {
-  width: 100%;
-}
-
-.c-txt.line:hover::before {
-  -webkit-transform-origin: left top;
-          transform-origin: left top;
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-}
-
-.arrow {
-  position: relative;
-  display: inline-block;
-  padding: 12px;
-}
-
-.arrow.arrow-right::before {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
 }
 
 .site-detail__cards {
