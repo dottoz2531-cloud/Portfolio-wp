@@ -57,9 +57,10 @@
                       <p class="site-explanation__title">ページ数:</p>
                       <p class="site-explanation__text"><?php the_field('page');?></p>
                     </div>
-                    <div class="site-explanation__tag">
+                    <div class="site-explanation__tag2">
                       <p class="site-explanation__title">使用ツール:</p>
-                        <p class="site-explanation__text"><?php the_field('tool');?></p>
+                        <p class="site-explanation__text">
+                        <?php echo nl2br(get_field('tool'));?>
                     </div>
                   </div>
                 </div>
@@ -72,7 +73,7 @@
                     </div>
                   </div>
                   <p class="site-detail__items">
-                  <?php the_field('program');?>
+                  <?php echo nl2br(get_field('program'));?>
                   </p>
                 </div>
                 <div class="site-detail__card fadeIn1500ms">
