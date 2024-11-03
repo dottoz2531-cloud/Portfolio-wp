@@ -2466,7 +2466,7 @@ body {
 .likes-card__img::after {
   color: #fff;
   content: "海外の配信者にハマっています…！";
-  font-size: 18px;
+  font-size: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
