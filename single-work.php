@@ -39,6 +39,50 @@
                 <p class="basic__pass"><?php the_field('basic-pass');?>
                 </p>
               </div>
+              <div class="concept__slider">
+            <!-- Slider main container -->
+            <div id="js-concept-swiper" class="swiper concept__swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide gallery__slide">
+                  <div class="content__swiper-slide">
+                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work1.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide gallery__slide">
+                  <div class="content__swiper-slide">
+                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work2.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide gallery__slide">
+                  <div class="content__swiper-slide">
+                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work3.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide gallery__slide">
+                  <div class="content__swiper-slide">
+                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work4.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide gallery__slide">
+                  <div class="content__swiper-slide">
+                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work5.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide gallery__slide">
+                  <div class="content__swiper-slide">
+                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work6.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div
+                id="js-concept-pagination"
+                class="swiper-pagination concept__pagination"
+              ></div>
+            </div>
+          </div>
               <div class="site-detail__cards">
                 <div class="site-detail__card fadeIn500ms">
                   <div class="site-detail__card__title site-title">
