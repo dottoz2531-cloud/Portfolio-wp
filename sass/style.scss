@@ -2148,13 +2148,6 @@ body {
 //  transform: rotate(45deg);
 //}
 
-//swiper
-
-
-
-
-
-
 .site-detail__cards {
   margin-top: 50px;
   display: flex;
@@ -2242,6 +2235,27 @@ body {
   font-size: 16px;
 }
 
+//site-detail-swiper
+
+.site-detail__swiper{
+  
+}
+
+.site-detail__slider {
+  margin-bottom: 20px;
+  margin-inline: 5px;
+}
+.site-detail-card {
+  
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid $sub-color;
+  }
+}
+
 //other
 .other {
   background-color: $main-color;
@@ -2250,18 +2264,6 @@ body {
 .other__inner {
   padding-top: 110px;
   padding-bottom: 70px;
-}
-
-.swiper-slide {
-  opacity: 0.3;
-  transform: scale(0.8);
-  transition: 0.7s;
-}
-
-.swiper-slide-active {
-  opacity: 1;
-  transform: scale(1);
-  z-index: 1;
 }
 
 .other-card {

@@ -89,11 +89,11 @@
                 <div class="strengths-card__title card-title js-in-view fade-in-up">
                   <p class="card-title__number">01</p>
                   <div class="card-title__text">
-                    <img src="<?php the_field('image','115');?>" alt="" />
+                    <img src="<?php the_field('image','118');?>" alt="" />
                   </div>
                 </div>
                 <p class="strengths-card__text">
-                <?php echo nl2br(get_field('text','115'));?>
+                <?php echo nl2br(get_field('text','118'));?>
                 </p>
               </div>
               <div class="strengths__card strengths-card">
@@ -111,11 +111,11 @@
                 <div class="strengths-card__title card-title js-in-view fade-in-up">
                   <p class="card-title__number">03</p>
                   <div class="card-title__text">
-                    <img src="<?php the_field('image','118');?>" alt="" />
+                    <img src="<?php the_field('image','115');?>" alt="" />
                   </div>
                 </div>
                 <p class="strengths-card__text">
-                <?php echo nl2br(get_field('text','118'));?>
+                <?php echo nl2br(get_field('text','115'));?>
               </div>
             </div>
           </div>

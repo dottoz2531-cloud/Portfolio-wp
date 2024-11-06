@@ -25,6 +25,68 @@
             <h2 class="heading site-detail__head heading--type2">
             <?php the_field('title');?>
             </h2>
+
+            
+            <div class="site-detail__slider">
+              <!-- Slider main container -->
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="site-detail-card">
+                    <img src="<?php the_field('site-page1');?>" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="site-detail-card">
+                    <img src="<?php the_field('site-page2');?>" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="site-detail-card">
+                    <img src="<?php the_field('site-page3');?>" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="site-detail-card">
+                    <img src="<?php the_field('site-page4');?>" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="site-detail-card">
+                    <img src="<?php the_field('site-page5');?>" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="site-detail-card">
+                    <img src="<?php the_field('site-page1');?>" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="site-detail-card">
+                    <img src="<?php the_field('site-page2');?>" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="site-detail-card">
+                    <img src="<?php the_field('site-page3');?>" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="site-detail-card">
+                    <img src="<?php the_field('site-page4');?>" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="site-detail-card">
+                    <img src="<?php the_field('site-page5');?>" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
             <div class="site-detail__box">
               <div class="site-detail__textes">
                 <p class="site-detail__explanation">
@@ -39,50 +101,8 @@
                 <p class="basic__pass"><?php the_field('basic-pass');?>
                 </p>
               </div>
-              <div class="concept__slider">
-            <!-- Slider main container -->
-            <div id="js-concept-swiper" class="swiper concept__swiper">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide gallery__slide">
-                  <div class="content__swiper-slide">
-                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work1.png" alt="" />
-                  </div>
-                </div>
-                <div class="swiper-slide gallery__slide">
-                  <div class="content__swiper-slide">
-                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work2.png" alt="" />
-                  </div>
-                </div>
-                <div class="swiper-slide gallery__slide">
-                  <div class="content__swiper-slide">
-                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work3.png" alt="" />
-                  </div>
-                </div>
-                <div class="swiper-slide gallery__slide">
-                  <div class="content__swiper-slide">
-                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work4.png" alt="" />
-                  </div>
-                </div>
-                <div class="swiper-slide gallery__slide">
-                  <div class="content__swiper-slide">
-                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work5.png" alt="" />
-                  </div>
-                </div>
-                <div class="swiper-slide gallery__slide">
-                  <div class="content__swiper-slide">
-                    <img src="<?php echo get_template_directory_uri()?>/img/work-img/work6.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- If we need pagination -->
-              <div
-                id="js-concept-pagination"
-                class="swiper-pagination concept__pagination"
-              ></div>
-            </div>
-          </div>
+
+      
               <div class="site-detail__cards">
                 <div class="site-detail__card fadeIn500ms">
                   <div class="site-detail__card__title site-title">
