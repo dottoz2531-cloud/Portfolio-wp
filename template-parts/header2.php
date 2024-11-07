@@ -42,7 +42,7 @@
             <span class="drawer-icon__bar"></span>
           </button>
 
-          <nav id="js-drawer-content2" class="header__nav">
+          <nav id="js-drawer-content" class="header__nav">
             <ul class="header__lists">
               <li class="header__list">
                 <a href="<?php echo home_url('/aboutページ');?>" class="header__link">

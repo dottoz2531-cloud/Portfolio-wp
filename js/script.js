@@ -27,13 +27,11 @@ document
     e.preventDefault();
 
     document.querySelector("#js-drawer-button").classList.toggle("is-checked");
-    document
-      .querySelector("#js-drawer-content2")
-      .classList.toggle("is-checked");
+    document.querySelector("#js-drawer-content2").classList.toggle("is-checked");
   });
 
 document
-  .querySelectorAll('#js-drawer-content2 a[href^="#"]')
+  .querySelectorAll('#js-drawer-content a[href^="#"]')
   .forEach(function (link) {
     link.addEventListener("click", function (e) {
       document

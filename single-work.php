@@ -25,8 +25,6 @@
             <h2 class="heading site-detail__head heading--type2">
             <?php the_field('title');?>
             </h2>
-
-            
             <div class="site-detail__slider">
               <!-- Slider main container -->
               <div class="swiper">
@@ -84,9 +82,6 @@
                 </div>
               </div>
             </div>
-
-
-
             <div class="site-detail__box">
               <div class="site-detail__textes">
                 <p class="site-detail__explanation">
@@ -101,8 +96,6 @@
                 <p class="basic__pass"><?php the_field('basic-pass');?>
                 </p>
               </div>
-
-      
               <div class="site-detail__cards">
                 <div class="site-detail__card fadeIn500ms">
                   <div class="site-detail__card__title site-title">

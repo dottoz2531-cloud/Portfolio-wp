@@ -283,9 +283,9 @@ body {
   color: $sub2-color;
   display: inline-block;
   margin-top: 15px;
-  padding: 2px 10px;
+  padding: 1px 10px;
   border-radius: 7px;
-  font-size: 15px;
+  font-size: 12px;
   margin-left: 10px;
 
   @include mq(md) {
