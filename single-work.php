@@ -25,6 +25,8 @@
             <h2 class="heading site-detail__head heading--type2">
             <?php the_field('title');?>
             </h2>
+          </div>
+          <div class="site-detail__inner2">
             <div class="site-detail__slider">
               <!-- Slider main container -->
               <div class="swiper">
@@ -82,6 +84,9 @@
                 </div>
               </div>
             </div>
+          </div>
+
+          <div class="inner site-detail__inner3">
             <div class="site-detail__box">
               <div class="site-detail__textes">
                 <p class="site-detail__explanation">
