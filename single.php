@@ -135,7 +135,7 @@
                 <div class="likes-card__img likes-card__img--type2">
                   <img src="<?php the_field('image','21');?>" alt="" />
                 </div>
-                <p class="likes-card__title"><?php the_field('title','18');?></p>
+                <p class="likes-card__title"><?php the_field('title','21');?></p>
               </div>
               <div class="likes__card likes-card fadeIn1500ms">
                 <div class="likes-card__img likes-card__img--type3">
