@@ -227,7 +227,7 @@
               </li>
               <li class="contact__link-item">
                 <a
-                  href="#is-wantedly"
+                  href="https://www.wantedly.com/id/ayumi_okamura_z"
                   class="site__link"
                 >
                   <img class="is-wantedly" src="<?php echo get_template_directory_uri() ?>/img/wantedly.png" alt="" />
