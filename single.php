@@ -70,7 +70,7 @@
               <div class="career__box career-box fadeIn2s-up">
                 <p class="career-box__day">2023.2</p>
                 <p class="career-box__text">
-                  株式会社テクノ・ポッセ　SESとして入社 <br class="hidden-md" />現在は金融系の開発保守
+                  株式会社テクノ・ポッセ　SESとして入社 <br class="hidden-md" />現在は銀行システムの開発保守
                 </p>
               </div>
               <div class="career__box career-box fadeIn2500ms-up">

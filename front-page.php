@@ -105,12 +105,12 @@
                     <div class="tools">
                       <p class="tool">HTML</p>
                       <p class="tool">CSS</p>
-                      <p class="tool">SCSS</p>
+                      <p class="tool">Sass</p>
                       <p class="tool">JavaScript</p>
                       <p class="tool">jQuery</p>
                       <p class="tool">Swiper</p>
-                      <p class="tool">Visual Studio Code</p>
-                      <p class="tool">github</p>
+                      <p class="tool">VSCode</p>
+                      <p class="tool">GitHub</p>
                     </div>
                   </div>
                 </div>
