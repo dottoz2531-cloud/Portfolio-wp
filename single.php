@@ -74,7 +74,7 @@
                 </p>
               </div>
               <div class="career__box career-box fadeIn2500ms-up">
-                <p class="career-box__day">2023.6</p>
+                <p class="career-box__day">2023.5</p>
                 <p class="career-box__text">デイトラ　WEB制作コース受講</p>
               </div>
             </div>
