@@ -310,6 +310,7 @@ body {
 
 //body
 
+//header
 .header {
   height: $header-hight-sp;
   position: sticky;
@@ -546,7 +547,6 @@ body {
 //index.php//
 
 //fv
-
 .fv {
   background: $main-color;
 }
@@ -1797,9 +1797,6 @@ body {
   padding-block: 60px 80px;
 }
 
-.strengths__inner {
-}
-
 .strengths__cards {
   display: flex;
   flex-direction: column;
@@ -1887,9 +1884,6 @@ body {
   @include mq(lg) {
     display: flex;
   }
-}
-
-.likes__card {
 }
 
 .likes-card__img {
@@ -1986,7 +1980,6 @@ body {
 //single-work.php
 
 //site-detail
-
 .site-detail {
   background-color: $main-color;
 }
@@ -2077,58 +2070,6 @@ body {
   }
 }
 
-//.siteview__link {
-//  text-decoration: none;
-//  -webkit-text-fill-color: $sub2-color;
-//  -webkit-text-stroke: 2px $sub-color;
-//
-//  @include mq(md) {
-//    font-size: 40px;
-// }
-//}
-
-//.siteview__link-item {
-//  font-size: 30px;
-//  font-weight: 800;
-//  position: relative;
-//  z-index: 1;
-//  transition: 0.4s cubic-bezier(0.37, 0, 0.63, 1);
-//
-//  &:hover {
-//    letter-spacing: 0.1em;
-//  }
-//
-//  &::after {
-//    content: "";
-//    position: absolute;
-//    left: 0;
-//    bottom: -5px;
-//    width: 0%;
-//    height: 2px;
-//    background: $sub-color;
-//    z-index: -1;
-//    transition: all 0.4s; /*アニメーション速度*/
-//  }
-//}
-//.siteview__link:hover .siteview__link-item:after {
-//  width: 100%;
-//}
-
-//.c-txt.line:hover::before {
-//  transform-origin: left top;
-//  transform: scale(1, 1);
-//}
-
-//.arrow {
-//  position: relative;
-//  display: inline-block;
-//  padding: 12px;
-//}
-//
-//.arrow.arrow-right::before {
-//  transform: rotate(45deg);
-//}
-
 .site-detail__cards {
   margin-top: 50px;
   display: flex;
@@ -2215,9 +2156,6 @@ body {
 
 //site-detail-swiper
 
-.site-detail__swiper {
-}
-
 .site-detail__slider {
   margin-bottom: 20px;
   margin-inline: 5px;
@@ -2296,10 +2234,6 @@ body {
 }
 
 //works
-
-.works {
-}
-
 .works__inner {
   padding-top: 65px;
   padding-bottom: 120px;
@@ -2365,9 +2299,6 @@ body {
     transform: scale(1.03);
     border: 4px solid #333;
   }
-}
-
-.works__texts {
 }
 
 .works__title {
